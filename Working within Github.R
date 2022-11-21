@@ -27,3 +27,6 @@ edit_git_config()
 # [user]
 # name = Luca De Benedictis
 # email = luca.debenedictis@unimc.it
+
+use_git()
+
