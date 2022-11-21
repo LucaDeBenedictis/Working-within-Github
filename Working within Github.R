@@ -30,3 +30,21 @@ edit_git_config()
 
 use_git()
 
+# Connect RStudio and GitHub
+
+create_github_token()
+
+# Git-LDB Expires on Wed, Feb 15 2023.
+# username: PersonalAccessToken
+# Token: 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
+
+library(gitcreds)
+gitcreds_set()
+
+
+# How to Connect RStudio Projects with GitHub Repositories
+
+# (from RStudio)
+
+use_github()
+
